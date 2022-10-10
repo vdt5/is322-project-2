@@ -1,0 +1,19 @@
+.grid-view {
+    display: flex;
+}
+
+.grid-view__column {
+    flex: 1 1 25%;
+    padding: 12px;
+    border: 1px solid #bfbfbf;
+    border-right: 0;
+    background-color: #dedede;
+}
+
+.grid-view__column:nth-child(even) {
+    background-color: #efefef;
+}
+
+.grid-view__column:last-of-type {
+    border-right: 1px solid #bfbfbf;
+}

@@ -1,0 +1,20 @@
+.list-view__headers {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-view__header-title--title {
+    flex: 0 0 calc(40% - 15px);
+    margin-left: 15px;
+}
+
+.list-view__header-title--columnName {
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.list-view__header-title--type {
+    flex: 0 0 calc(30% - 15px);
+    text-align: right;
+    margin-right: 15px;
+}

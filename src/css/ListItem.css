@@ -1,0 +1,18 @@
+.list-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item__column--title {
+    flex: 0 0 40%;
+}
+
+.list-item__column--columnName {
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.list-item__column--type {
+    flex: 0 0 30%;
+    text-align: right;
+}
